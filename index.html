@@ -10,25 +10,28 @@
 
     <title>About Joel Mathen</title>
   </head>
-
+<!-- d-{640}-flex can we change break point in bootstrap -->
   <body>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light py-0">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light py-0 ">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand bg-info text-white ml-4 px-3 py-4">Joel Mathen</a>
           </div>
+<!-- took out navbar-right from line 21 -->
           
-          <ul class="nav navbar-nav navbar-right">
-            <a class="nav-link">About <span class="border-right pr-3"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio <span class="border-right pr-3"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+            <ul class="nav navbar-nav d-flex flex-row">
+              <li>
+                <a class="nav-link">About<span class="border-right pr-3"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio<span class="border-right pr-3"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          
+        </div>  
       </nav>
     <!-- This is the beginning of the container for the placement of objects according to grid system -->
       <div class="container">
