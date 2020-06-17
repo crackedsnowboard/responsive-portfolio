@@ -12,7 +12,8 @@
 
   <title>About Joel Mathen</title>
 </head>
-<!-- d-{640}-flex can we change break point in bootstrap -->
+
+<!-- Navbar creation -->
 
 <body class="bg-light">
   <nav class="navbar navbar-expand-sm navbar-light bg-white py-0 ">
@@ -20,8 +21,6 @@
       <div class="navbar-header">
         <a class="navbar-brand bg-info text-white ml-4 px-3 py-4">Joel Mathen</a>
       </div>
-      <!-- took out navbar-right from line 21 -->
-
       <ul class="nav navbar-nav d-flex flex-row">
         <li>
           <a class="nav-link">About<span class="border-right pr-3"></span></a>
@@ -33,28 +32,40 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-
     </div>
   </nav>
-  <!-- This is the beginning of the container for the placement of objects according to grid system -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="card mt-5 style=" width: 18rem;>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-12">
-                <h3 class="card-title text-info border-bottom">About Me</h3>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="image-wrapper float-left pr-3">
-                  <img src="./Assets/headshotJM.jpg" class="img-fluid" alt="Headshot photo of Joel Mathen">
+  <!-- Card layout using the grid system -->
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card mt-5 style=" width: 18rem;>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h3 class="card-title text-info border-bottom">About Me</h3>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="image-wrapper float-left pr-3">
+                    <img src="./Assets/headshotJM.jpg" class="img-fluid" alt="Headshot photo of Joel Mathen">
+                  </div>
 
-                <div class="single-post-content-wrapper p-3">
-                  <p class="card-text mt-n3 ml-n3">Beginning coder with previous experience as an accountant and cybersecurity. My primary goal is to develop modern web applications to help solve relevant problems. A secondary goal is to understand how web applications are built in order to help secure them better. Underlying all of this is just a fascination with coding and the enjoyment of constantly learning new frameworks/technologies. I currently live in the San Francisco Bay area and have previously lived in Washington DC and Jakarta Indonesia. I enjoy cycling and skiing in the winter, but I’m not sure if any of this is still relevant post Covid - but I remain hopeful. I enjoy traveling and recently went to India where I finally learned to make the family beef and fish curry recipes. I also enjoy learning languages and speak Bahasa Indonesian and Mandarin Chinese. My greatest accomplishment was riding my bike from Seattle to Vancouver which was over 200 miles and we did it in just two days. Some how I gained weight over that weekend.</p>
+                  <div class="single-post-content-wrapper p-3">
+                    <p class="card-text mt-n3 ml-n3">Beginning coder with previous experience as an accountant and
+                      cybersecurity consultant. My primary goal is to develop modern web applications to help solve
+                      relevant problems. A secondary goal is to understand how web applications are built in order to
+                      help secure them better. Underlying all of this is just a fascination with coding and the
+                      enjoyment of constantly learning new frameworks/technologies. I currently live in the San
+                      Francisco Bay area and have previously lived in Washington DC and Jakarta Indonesia. I enjoy
+                      cycling and skiing in the winter, but I’m not sure if any of this is still relevant post Covid -
+                      but I remain hopeful. I enjoy traveling and recently went to India where I finally learned to make
+                      the family beef and fish curry recipes. I also enjoy learning languages and speak Bahasa
+                      Indonesian and Mandarin Chinese. My greatest accomplishment was riding my bike from Seattle to
+                      Vancouver which was over 200 miles and we did it in just two days. Some how I gained weight over
+                      that weekend.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -62,16 +73,16 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
   <footer>
     <div class="navabar fixed-bottom">
-    <ul class="nav nav-justified justify-content-center bg-info pt-1">
-      <li class="nav-item bg-secondary">
-        <a class="nav-link activate">© Copyright</a>
-      </li>
-    </ul>
-  </div>
-</footer>
+      <ul class="nav nav-justified justify-content-center bg-info pt-1">
+        <li class="nav-item bg-secondary">
+          <a class="nav-link activate">© Copyright</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
